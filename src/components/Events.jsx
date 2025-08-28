@@ -53,7 +53,7 @@ const Events = ({ typeFilter, search }) => {
         </div>
       )}
 
-      {data && data.length > 0 ? (
+      {!loading && data && data.length > 0 ? (
         <div className="row mt-3 ms-2 ">
           {data.map((event) => {
             return (
