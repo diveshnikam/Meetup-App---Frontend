@@ -107,31 +107,29 @@ const EventDetails = () => {
                   <div className="col-12 col-lg-6 mt-4">
                     <div
                       className="card ms-lg-5 float-lg-end"
-                      style={{ width: "22rem" }}
+                      style={{ width: "23em" }}
                     >
                       <div className="card-body">
-                        <span className="card-text">&#128339;</span>
-                        <time className="card-text ms-4 text-body">
-                          {timeDate(data.date)} -
+                        <p className="card-text">&#128339;</p>
+                        <time className="card-text  text-body">
+                          {timeDate(data.date)}  to
                         </time>{" "}
                         <br />
-                        <time className="card-text ms-5 text-body ">
+                        <time className="card-text  text-body ">
                           {formatDateTime(data.endDate)}
                         </time>{" "}
                         <br />
                         <div className="mt-4">
-                          <span className="card-text ms-1">&#128205; </span>
-                          <span className="ms-3 text-body">
+                          <p className="card-text ">&#128205; </p>
+                          <time className="text-body">
                             {data.venue.name}
-                          </span>{" "}
-                          <br />
-                          <p className="ms-5 text-body">{data.venue.address}</p>
+                          </time>{" "} <br />
+                          <time className="text-body">{data.venue.address}</time>
                         </div>
                         <div className="mt-4">
-                          <span className="card-text ms-2">&#8377; </span>
-                          <span className="ms-4 text-body">
-                            {data.isFree ? "Free" : data.price}
-                          </span>
+                          <p className=" text-body">
+                           &#8377; {data.isFree ? "Free" : data.price}
+                          </p>
                         </div>
                       </div>
                     </div>
