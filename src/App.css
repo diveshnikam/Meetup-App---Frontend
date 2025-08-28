@@ -1,0 +1,81 @@
+
+@media (max-width: 575.98px) {
+  .speakers-row {
+    margin-left: 0 !important; 
+  }
+}
+
+/* Base: iPhone SE (~375px) -> like h5 */
+.event-title {
+  font-size: 1.25rem;     /* h5 */
+  line-height: 1.2;
+}
+
+/* iPhone 12 portrait (~390px) -> like h4 */
+@media (min-width: 390px) {
+  .event-title {
+    font-size: 1.5rem;    /* h4 */
+  }
+}
+
+/* Tablets ≥768px (md) -> like h3 */
+@media (min-width: 768px) {
+  .event-title {
+    font-size: 1.75rem;   /* h3 */
+  }
+}
+
+/* Laptops ≥992px (lg) -> like h2 */
+@media (min-width: 992px) {
+  .event-title {
+    font-size: 2rem;      /* h2 */
+  }
+}
+
+/* Larger laptops / desktops ≥1200px (xl) -> like h1 */
+@media (min-width: 1200px) {
+  .event-title {
+    font-size: 2.5rem;    /* h1 */
+  }
+}
+
+.details-title {
+  font-size: 1.25rem;     /* h5 */
+  line-height: 1.2;
+}
+
+/* iPhone 12 portrait (~390px) -> like h4 */
+@media (min-width: 390px) {
+  .details-title {
+    font-size: 1.5rem;    /* h4 */
+  }
+}
+
+/* Tablets ≥768px (md) -> like h3 */
+@media (min-width: 768px) {
+  .details-title {
+    font-size: 1.75rem;   /* h3 */
+  }
+}
+
+/* Laptops ≥992px (lg) -> like h2 */
+@media (min-width: 992px) {
+  .details-title {
+    font-size: 2rem;      /* h2 */
+  }
+}
+
+/* Larger laptops / desktops ≥1200px (xl) -> like h1 */
+@media (min-width: 1200px) {
+  .details-title {
+    font-size: 2.5rem;    /* h1 */
+  }
+}
+
+
+
+
+
+
+
+

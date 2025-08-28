@@ -1,0 +1,14 @@
+html, body, #root {
+ background-color: rgb(225, 227, 228);
+
+ 
+}
+
+
+.my-placeholder::placeholder { color: #9aa0a6 ; }
+
+
+
+
+
+
