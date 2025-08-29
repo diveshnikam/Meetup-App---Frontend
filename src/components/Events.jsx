@@ -30,7 +30,7 @@ const Events = ({ typeFilter, search }) => {
   const { data, loading, error } = useFetch(url);
 
   return (
-    <main className="container">
+    <main className="container px-4 px-lg-0">
       {loading && (
         <div
           className="d-flex justify-content-center align-items-center"

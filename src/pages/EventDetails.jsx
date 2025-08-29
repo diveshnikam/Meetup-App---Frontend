@@ -18,7 +18,7 @@ const EventDetails = () => {
 
       <hr className="container mt-3" />
 
-      <main className="container">
+      <main className="container  px-4 px-lg-0">
         <div className="row">
           {loading && (
             <div
@@ -136,13 +136,13 @@ const EventDetails = () => {
 
                     <div className="clearfix"></div>
 
-                    <div className="mt-5 text-start text-lg-end">
-                      <h3 className="fw-bold" style={{ marginRight: "11rem" }}>
+                    <div className="mt-5 text-start text-lg-end ">
+                      <h3 className="fw-bold speakers-title" style={{ marginRight: "6rem" }}>
                         Speakers: ({data.speakers.length})
                       </h3>
                     </div>
 
-                    <div className="row mt-4 speakers-row" style={{ marginLeft: "19vw" }}
+                    <div className="row mt-4 speakers-row" style={{ marginLeft: "22vw" }}
 >
                       {data.speakers.map((sp, i) => {
                         return (

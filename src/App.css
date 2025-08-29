@@ -1,9 +1,25 @@
 
 @media (max-width: 575.98px) {
+  
   .speakers-row {
-    margin-left: 0 !important; 
+    margin-left: 0 !important;   
+    justify-content: center;    
+  }
+
+  
+  .speakers-row .col-auto {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .speakers-title {
+    text-align: center;
+    font-size: 1.25rem; 
+    margin-left: 6rem;
   }
 }
+
 
 /* Base: iPhone SE (~375px) -> like h5 */
 .event-title {
@@ -71,6 +87,9 @@
     font-size: 2.5rem;    /* h1 */
   }
 }
+
+
+
 
 
 
